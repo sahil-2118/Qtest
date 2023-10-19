@@ -1,0 +1,10 @@
+[
+    {
+      "command_name": "sign_up",
+      "parameters": {
+        "username": "sahel1",
+        "password": "saheli",
+        "email": "te"
+      }
+    }
+]

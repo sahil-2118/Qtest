@@ -1,0 +1,11 @@
+bcrypt
+cffi
+gevent
+greenlet
+peewee
+pycparser
+pysqlite3
+pyzmq
+six
+zope.event
+zope.interface
