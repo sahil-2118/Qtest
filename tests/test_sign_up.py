@@ -26,19 +26,23 @@ def server():
 def test_sign_up(server):
     # Use the fixture to start and stop the server
     # Send a sign up request to the server with valid data
-    data = {
-        "command_name": "sign_up",
-        "parameters": {
-        "username": "admin22",
-        "password": "admin",
-        "email": "admin@dshasin.net"
-        }
-    }
-    args = ["python3", "server.py", "--port", "7878", "--ip", "127.0.0.1", "--file", "commands/sign-up.json"]
-    client_process = subprocess.Popen(args)
+    args = ["python3", 
+            "client.py", 
+            "--port", "7878", 
+            "--ip", "127.0.0.1", 
+            "--file", 
+            "commands/sign-up.json",
+            ]
+    client_process = subprocess.run(
+                                args,
+                                stdout=subprocess.PIPE,
+                                stderr=subprocess.PIPE,
+                                encoding="utf-8"
+                                )
     time.sleep(2)
-    pid = client_process.pid
-    os.kill(pid, signal.SIGTERM)
-    # Assert that the response is successful and contains the expected message
-    # assert response.status_code == 200
-    # assert result == "User admin signed up successfully"
+   
+    assert client_process.returncode == 0
+    assert "Response is" in client_process.stdout
+    assert client_process.stderr == ""    
+    
+    
