@@ -1,0 +1,11 @@
+{
+    "add_phone_user.json": "successfully",
+    "invalid_phone_number.json": "invalid phone number",
+    "empty_username.json": "invalid username",
+    "empty_phone_number.json": "invalid phone number",
+    "without_phone_number.json": "phone_number",
+    "without_username.json": "username",
+    "user_with_two_same_phone_number.json":"",
+    "users_same_phone_number.json":"",
+    "with_explanation.json":"successfully"
+}

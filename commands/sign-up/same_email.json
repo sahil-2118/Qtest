@@ -1,0 +1,20 @@
+[
+    {
+      "command_name": "sign_up",
+      "parameters": {
+        "username": "sina",
+        "password": "saheli",
+        "email": "sina@gmail.com"
+      }
+    },
+    [
+        {
+          "command_name": "sign_up",
+          "parameters": {
+            "username": "saba",
+            "password": "saheli",
+            "email": "sina@gmail.com"
+          }
+        }
+    ]
+]

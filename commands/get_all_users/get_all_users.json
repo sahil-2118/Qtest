@@ -1,0 +1,6 @@
+[
+    {
+        "command_name": "get_all_phone_users",
+        "parameters": {}
+    }
+]

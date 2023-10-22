@@ -1,0 +1,9 @@
+{
+    "add_phone_number.json": "successfully",
+    "empty_phone_number.json": "invalid phone number",
+    "empty_username.json": "invalid username",
+    "notexisit_username.json":"username does not exisit",
+    "same_email.json":"UNIQUE",
+    "without_phone_number.json": "phone number",
+    "without_username.json": "username"
+}

@@ -1,0 +1,14 @@
+{
+    "edit_user.json": "successfully",
+    "change_to_exisiting_phone_number.json": "invalid phone number",
+    "change_to_exisiting_username.json": "invalid username",
+    "empty_new_phone_number_&_username.json":"username does not exisit",
+    "empty_new_phone_number.json":"UNIQUE",
+    "empty_phone_number.json": "phone number",
+    "empty_username.json": "username",
+    "invalid_user_name.json": "successfully",
+    "without_new_phone_number.json": "successfully",
+    "without_new_username.json": "successfully",
+    "without_phone_number.json": "successfully",
+    "without_username.json": "successfully"
+}

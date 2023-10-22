@@ -1,0 +1,9 @@
+[
+    {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "user2",
+            "phone_number": ""
+        }
+    }
+]

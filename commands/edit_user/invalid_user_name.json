@@ -1,0 +1,11 @@
+[
+    {
+        "command_name": "edit_phone_user",
+        "parameters": {
+            "username": "xxxx",
+            "phone_number": "44683112",
+            "new_phone_number": "66056487",
+            "new_username": "yyyy"
+        }
+    }
+]

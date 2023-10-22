@@ -1,0 +1,23 @@
+[
+    {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "user1",
+            "phone_number": "test1233"
+        }
+    },
+    {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "user2",
+            "phone_number": "26"
+        }
+    },
+    {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "user3",
+            "phone_number": "99999999999"
+        }
+    }
+]

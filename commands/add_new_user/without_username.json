@@ -1,0 +1,8 @@
+[
+    {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "phone_number": "2057112"
+        }
+    }
+]

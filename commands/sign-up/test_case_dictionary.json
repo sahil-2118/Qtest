@@ -1,0 +1,12 @@
+{
+    "sign-up.json": "successfully",
+    "sign_up_same_username.json": "UNIQUE",
+    "invalid_email.json": "invalid email",
+    "empty_password.json": "invalid password",
+    "empty_username.json": "invalid username",
+    "empty_email.json":"invalid email",
+    "same_email.json":"UNIQUE",
+    "without_password.json": "password",
+    "without_username.json": "username",
+    "without_email.json": "email"
+}

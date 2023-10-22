@@ -7,11 +7,10 @@ import json
 from ..core.models import before_request, Users, teardown_request
 
 
-__TEST_FILE_BASE_ADDRESS = r"commands/sign-up/"
+__TEST_FILE_BASE_ADDRESS = r"commands/add_phone_number/"
 with open(__TEST_FILE_BASE_ADDRESS + 'test_case_dictionary.json') as f:
     __TEST_CASE_DICT = json.load(f)
 __TEST_FILE_NAMES_LIST = list(__TEST_CASE_DICT.keys())
-
 
 
 @pytest.fixture(scope="function")
@@ -51,23 +50,22 @@ def sign_up_functionality(request):
     path = request.param
     yield client_process, path.split('/')[2]
 
-
     # if 'successfully' in client_process.stdout:
-    #     with open(request.param) as json_file:
-    #         data = json.load(json_file)
-    #         print(data)
-    #         before_request()
-    #         print(data['parameters']['username'])
-    #         user = Users.get(Users.username == data['parameters']['username'])
-    #         user.delete()
-    #         teardown_request()
+        # with open(request.param) as json_file:
+        #     data = json.load(json_file)
+        #     print(data)
+        #     before_request()
+        #     print(data['parameters']['username'])
+        #     user = Users.get(Users.username == data['parameters']['username'])
+        #     user.delete()
+        #     teardown_request()
 
 
 
 
 
-def test_sign_up(set_up: int, sign_up_functionality):
-     
+def test_sign_in(set_up: int, sign_up_functionality):
+
     process, test_case = sign_up_functionality
      
     assert process.returncode == 0

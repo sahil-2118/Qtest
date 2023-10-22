@@ -1,0 +1,6 @@
+{
+    "remove_phone_user.json": "successfully",
+    "empty_username.json": "invalid username",
+    "invalid_username.json":"this username does not exisit",
+    "without_username.json": "username"
+}

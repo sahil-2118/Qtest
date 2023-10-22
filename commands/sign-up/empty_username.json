@@ -2,9 +2,9 @@
     {
       "command_name": "sign_up",
       "parameters": {
-        "username": "sos4",
+        "username": "",
         "password": "saheli",
-        "email": "sahel@gmail.com"
+        "email": "sahel2@gmail.com"
       }
     }
 ]

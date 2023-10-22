@@ -1,0 +1,9 @@
+[
+    {
+        "command_name": "sign_in",
+        "parameters": {
+            "username": "xxxxx",
+            "password": "admin"
+        }
+    }
+]
