@@ -2,41 +2,41 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "user1",
-            "phone_number": "46561233"
+            "username": "nnn",
+            "phone_number": "46561555"
         }
     },
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "user10",
-            "phone_number": "2653222"
+            "username": "ttt",
+            "phone_number": "2677222"
         }
     },
     {
         "command_name": "add_phone_number",
         "parameters": {
-            "username": "user1",
+            "username": "ttt",
             "phone_number": "444444"
         }
     },
     {
         "command_name": "add_phone_number",
         "parameters": {
-            "username": "user10",
+            "username": "nnn",
             "phone_number": "333333"
         }
     },
     {
         "command_name": "remove_phone_user",
         "parameters": {
-            "username": "user1"
+            "username": "nnn"
         }
     },
     {
         "command_name": "remove_phone_user",
         "parameters": {
-            "username": "user10"
+            "username": "ttt"
         }
     }
 ]

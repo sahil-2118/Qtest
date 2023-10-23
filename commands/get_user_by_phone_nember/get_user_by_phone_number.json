@@ -1,8 +1,21 @@
 [
     {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "ma",
+            "phone_number": "99999999999"
+        }
+    },
+    {
         "command_name": "get_phone_user_by_number",
         "parameters": {
             "phone_number": "99999999999"
+        }
+    },
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "ma"
         }
     }
 ]

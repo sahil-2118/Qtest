@@ -12,11 +12,6 @@ with open(__TEST_FILE_BASE_ADDRESS + 'test_case_dictionary.json') as f:
     __TEST_CASE_DICT = json.load(f)
 __TEST_FILE_NAMES_LIST = list(__TEST_CASE_DICT.keys())
 
-@pytest.fixture(scope="function")
-def tear_down():
-    with db.transaction() as txn:
-        yield txn
-        txn.rollback()
 
 
 @pytest.fixture(scope="function")
@@ -37,7 +32,7 @@ def set_up():
 
 
 @pytest.fixture(params = list(map(lambda x: __TEST_FILE_BASE_ADDRESS + x, __TEST_FILE_NAMES_LIST)))
-def sign_up_functionality(tear_down, request):
+def functionality(request):
     print(request.param)
     args = ["python3", 
             "client.py", 
@@ -62,9 +57,9 @@ def sign_up_functionality(tear_down, request):
 
 
 
-def test_sign_up(set_up: int, sign_up_functionality):
+def test_sign_up(set_up: int, functionality):
      
-    process, test_case = sign_up_functionality
+    process, test_case = functionality
      
     assert process.returncode == 0
     assert process.stderr == ""  

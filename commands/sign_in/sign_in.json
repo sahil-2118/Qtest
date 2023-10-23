@@ -1,5 +1,13 @@
 [
     {
+        "command_name": "sign_up",
+        "parameters": {
+          "username": "admin",
+          "password": "admin",
+          "email": "admin@dshasin.net"
+        }
+    },
+    {
         "command_name": "sign_in",
         "parameters": {
             "username": "admin",

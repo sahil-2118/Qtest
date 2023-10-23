@@ -31,7 +31,7 @@ def set_up():
 
 
 @pytest.fixture(params = list(map(lambda x: __TEST_FILE_BASE_ADDRESS + x, __TEST_FILE_NAMES_LIST)))
-def sign_up_functionality(request):
+def functionality(request):
     print(request.param)
     args = ["python3", 
             "client.py", 
@@ -50,23 +50,13 @@ def sign_up_functionality(request):
     path = request.param
     yield client_process, path.split('/')[2]
 
-    # if 'successfully' in client_process.stdout:
-        # with open(request.param) as json_file:
-        #     data = json.load(json_file)
-        #     print(data)
-        #     before_request()
-        #     print(data['parameters']['username'])
-        #     user = Users.get(Users.username == data['parameters']['username'])
-        #     user.delete()
-        #     teardown_request()
 
 
 
 
+def test_remove_user(set_up: int, functionality):
 
-def test_remove_user(set_up: int, sign_up_functionality):
-
-    process, test_case = sign_up_functionality
+    process, test_case = functionality
      
     assert process.returncode == 0
     assert process.stderr == ""  

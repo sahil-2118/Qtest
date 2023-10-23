@@ -1,5 +1,5 @@
 {
-    "get_user_by_name.json": "26",
+    "get_user_by_name.json": "successfully",
     "empty_username.json": "invalid username",
     "invalid_username.json":"this username does not exisit",
     "without_username.json": "username"

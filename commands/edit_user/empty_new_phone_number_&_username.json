@@ -2,15 +2,15 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-          "username": "user1",
-          "phone_number": "46561233"
+          "username": "ff",
+          "phone_number": "4656666"
         }
     },
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "user1",
-            "phone_number": "44653112",
+            "username": "ff",
+            "phone_number": "4656666",
             "new_phone_number": "",
             "new_username": ""
         }
@@ -19,6 +19,12 @@
         "command_name": "remove_phone_user",
         "parameters": {
             "username": ""
+        }
+    },
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "ff"
         }
     }
 ]

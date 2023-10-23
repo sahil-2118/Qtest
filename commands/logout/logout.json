@@ -1,15 +1,23 @@
 [
     {
+        "command_name": "sign_up",
+        "parameters": {
+          "username": "adn",
+          "password": "admin",
+          "email": "adn@dshasin.net"
+        }
+    },
+    {
         "command_name": "sign_in",
         "parameters": {
-            "username": "admin",
+            "username": "adn",
             "password": "admin"
         }
     },
     {
         "command_name": "logout",
         "parameters": {
-            "username": "admin"
+            "username": "adn"
         }
     }
 ]

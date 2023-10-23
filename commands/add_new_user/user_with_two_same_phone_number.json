@@ -18,11 +18,5 @@
         "parameters": {
             "username": "user4"
         }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "user4"
-        }
     }
 ]

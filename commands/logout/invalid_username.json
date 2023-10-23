@@ -7,16 +7,9 @@
         }
     },
     {
-        "command_name": "sign_in",
-        "parameters": {
-            "username": "admin",
-            "password": "admin"
-        }
-    },
-    {
         "command_name": "logout",
         "parameters": {
-            "username": "admin"
+            "username": "xxx"
         }
     }
 ]

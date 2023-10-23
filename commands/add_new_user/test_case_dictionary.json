@@ -5,7 +5,7 @@
     "empty_phone_number.json": "invalid phone number",
     "without_phone_number.json": "phone_number",
     "without_username.json": "username",
-    "user_with_two_same_phone_number.json":"",
-    "users_same_phone_number.json":"",
+    "user_with_two_same_phone_number.json":"UNIQUE",
+    "users_same_phone_number.json":"UNIQUE",
     "with_explanation.json":"successfully"
 }

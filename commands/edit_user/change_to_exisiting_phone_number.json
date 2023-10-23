@@ -5,13 +5,20 @@
           "username": "user3",
           "phone_number": "46561233"
         }
-      },
+    },
+    {
+        "command_name": "add_phone_user",
+        "parameters": {
+          "username": "cc",
+          "phone_number": "46566547"
+        }
+    },
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "user3",
+            "username": "us",
             "phone_number": "44653112",
-            "new_phone_number": "2053112",
+            "new_phone_number": "46566547",
             "new_username": "aa"
         }
     },
@@ -19,6 +26,18 @@
         "command_name": "remove_phone_user",
         "parameters": {
             "username": "aa"
+        }
+    },
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "cc"
+        }
+    },
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "us"
         }
     }
 ]
