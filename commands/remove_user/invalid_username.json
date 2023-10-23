@@ -1,0 +1,8 @@
+[
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "jjj"
+        }
+    }
+]

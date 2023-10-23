@@ -1,8 +1,10 @@
 {
-    "add_phone_number.json": "successfully",
-    "empty_phone_number.json": "invalid phone number",
+    "sign_in.json": "successfully",
+    "invalid_username.json": "username",
+    "empty_password.json": "invalid password",
     "empty_username.json": "invalid username",
-    "invalid_username.json": "does not exist",
-    "without_phone_number.json": "phone number is required",
-    "without_username.json": "username is required"
+    "without_password.json": "password",
+    "without_username.json": "username",
+    "wrong_password.json": "wrong password",
+    "same_sign_in.json":"had logged in"
 }

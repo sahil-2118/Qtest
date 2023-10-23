@@ -2,8 +2,8 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "user6",
-            "phone_number": "2653154",
+            "username": "user10",
+            "phone_number": "11443154",
             "explanation": "This is a test."
         }
     }

@@ -1,6 +1,6 @@
 [
     {
-        "command_name": "get_phone_user_by_name",
+        "command_name": "remove_phone_user",
         "parameters": {
             "username": ""
         }

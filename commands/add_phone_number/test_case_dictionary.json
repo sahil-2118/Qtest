@@ -1,9 +1,11 @@
 {
-    "add_phone_number.json": "successfully",
+    "add_phone_number.json": "successfuly",
     "empty_phone_number.json": "invalid phone number",
     "empty_username.json": "invalid username",
     "notexisit_username.json":"username does not exisit",
     "same_email.json":"UNIQUE",
     "without_phone_number.json": "phone number",
-    "without_username.json": "username"
+    "without_username.json": "username",
+    "user_with_two_same_phone_number.json":"UNIQUE",
+    "users_same_phone_number.json":"UNIQUE"
 }

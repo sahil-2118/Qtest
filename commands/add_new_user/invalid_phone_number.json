@@ -9,7 +9,7 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "user2",
+            "username": "user33",
             "phone_number": "26"
         }
     },

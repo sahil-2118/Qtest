@@ -2,15 +2,15 @@
     {
         "command_name": "add_phone_number",
         "parameters": {
-            "username": "user1",
-            "phone_number": "3262112"
+            "username": "user4",
+            "phone_number": "444444"
         }
     },
     {
         "command_name": "add_phone_number",
         "parameters": {
-            "username": "user4",
-            "phone_number": "2699222"
+            "username": "user1",
+            "phone_number": "444444"
         }
     }
 ]

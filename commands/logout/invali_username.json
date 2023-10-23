@@ -2,7 +2,7 @@
     {
         "command_name": "logout",
         "parameters": {
-            "username": "admin"
+            "username": "xxx"
         }
     }
 ]

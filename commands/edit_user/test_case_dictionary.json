@@ -1,14 +1,15 @@
 {
     "edit_user.json": "successfully",
-    "change_to_exisiting_phone_number.json": "invalid phone number",
-    "change_to_exisiting_username.json": "invalid username",
-    "empty_new_phone_number_&_username.json":"username does not exisit",
-    "empty_new_phone_number.json":"UNIQUE",
-    "empty_phone_number.json": "phone number",
+    "change_to_exisiting_phone_number.json": "UNIQUE constraint failed",
+    "change_to_exisiting_username.json": "UNIQUE constraint failed",
+    "empty_new_phone_number_&_username.json":"Params",
+    "empty_new_phone_number.json":"successfully",
+    "empty_new_username.json":"successfully",
+    "empty_phone_number.json": "successfully",
     "empty_username.json": "username",
-    "invalid_user_name.json": "successfully",
-    "without_new_phone_number.json": "successfully",
-    "without_new_username.json": "successfully",
-    "without_phone_number.json": "successfully",
-    "without_username.json": "successfully"
+    "invalid_user_name.json": "this user does not exisit",
+    "without_new_phone_number.json": "new_phone_number",
+    "without_new_username.json": "new_username",
+    "without_phone_number.json": "phone_number",
+    "without_username.json": "username"
 }

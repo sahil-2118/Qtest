@@ -2,10 +2,10 @@
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "user3",
+            "username": "user4",
             "phone_number": "",
             "new_phone_number": "66056477",
-            "new_username": "user4"
+            "new_username": "user5"
         }
     }
 ]

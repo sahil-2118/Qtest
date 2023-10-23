@@ -1,8 +1,10 @@
 [
     {
-        "command_name": "sign_in",
-        "parameters": {
-            "username": "admin"
-        }
+      "command_name": "sign_up",
+      "parameters": {
+        "username": "sara",
+        "password": "saheli",
+        "email": ""
+      }
     }
 ]

@@ -1,0 +1,8 @@
+[
+    {
+        "command_name": "get_phone_user_by_number",
+        "parameters": {
+            "phone_number": "2653112"
+        }
+    }
+]
