@@ -5,5 +5,11 @@
             "username": "user2",
             "phone_number": ""
         }
+    },
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "user2"
+        }
     }
 ]

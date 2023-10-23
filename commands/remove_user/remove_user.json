@@ -1,8 +1,15 @@
 [
     {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "sima",
+            "phone_number": "2053112"
+        }
+    },
+    {
         "command_name": "remove_phone_user",
         "parameters": {
-            "username": "user2"
+            "username": "sima"
         }
     }
 ]

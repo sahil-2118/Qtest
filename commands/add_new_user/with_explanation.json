@@ -6,5 +6,11 @@
             "phone_number": "11443154",
             "explanation": "This is a test."
         }
+    },
+    {
+        "command_name": "remove_phone_user",
+        "parameters": {
+            "username": "user10"
+        }
     }
 ]
