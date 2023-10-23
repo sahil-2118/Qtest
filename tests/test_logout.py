@@ -64,7 +64,7 @@ def sign_up_functionality(request):
 
 
 
-def test_sign_in(set_up: int, sign_up_functionality):
+def test_logout(set_up: int, sign_up_functionality):
 
     process, test_case = sign_up_functionality
      

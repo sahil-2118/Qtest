@@ -8,7 +8,7 @@ from ..core.models import before_request, Users, teardown_request
 
 
 __TEST_FILE_BASE_ADDRESS = r"commands/sign_in/"
-with open('commands/sign_in/test_case_dictionary.json') as f:
+with open(__TEST_FILE_BASE_ADDRESS + 'test_case_dictionary.json') as f:
     __TEST_CASE_DICT = json.load(f)
 __TEST_FILE_NAMES_LIST = list(__TEST_CASE_DICT.keys())
 
