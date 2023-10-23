@@ -64,7 +64,7 @@ def sign_up_functionality(request):
 
 
 
-def test_add_new_user(set_up: int, sign_up_functionality):
+def test_remove_user(set_up: int, sign_up_functionality):
 
     process, test_case = sign_up_functionality
      

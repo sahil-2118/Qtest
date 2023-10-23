@@ -2,7 +2,7 @@
     {
         "command_name": "get_phone_user_by_name",
         "parameters": {
-            "username": "user2"
+            "username": "user33"
         }
     }
 ]
