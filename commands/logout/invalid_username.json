@@ -1,15 +1,23 @@
 [
     {
+        "command_name": "sign_up",
+        "parameters": {
+            "username": "test1026",
+            "password": "sahel",
+            "email": "sahel@gmail.com"
+        }
+    },
+    {
         "command_name": "sign_in",
         "parameters": {
-            "username": "admin",
-            "password": "admin"
+            "username": "test1026",
+            "password": "sahel"
         }
     },
     {
         "command_name": "logout",
         "parameters": {
-            "username": "xxx"
+            "username": "sahel"
         }
     }
 ]

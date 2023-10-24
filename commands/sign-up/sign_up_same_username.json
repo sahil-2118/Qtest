@@ -2,7 +2,7 @@
     {
         "command_name": "sign_up",
         "parameters": {
-            "username": "sahel",
+            "username": "test1043",
             "password": "saheli",
             "email": "sahel@gmail.com"
         }
@@ -10,7 +10,7 @@
     {
         "command_name": "sign_up",
         "parameters": {
-            "username": "sahel",
+            "username": "test1043",
             "password": "davari",
             "email": "davari@gmail.com"
         }

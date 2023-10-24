@@ -1,8 +1,15 @@
 [
     {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "test1025",
+            "phone_number": "09123456825"
+        }
+    },
+    {
         "command_name": "get_phone_user_by_number",
         "parameters": {
-            "phone_number": "9953112"
+            "phone_number": "09123456900"
         }
     }
 ]

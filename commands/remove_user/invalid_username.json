@@ -1,8 +1,15 @@
 [
     {
+        "command_name": "add_phone_user",
+        "parameters": {
+            "username": "test1031",
+            "phone_number": "09123456831"
+        }
+    },
+    {
         "command_name": "remove_phone_user",
         "parameters": {
-            "username": "jjj"
+            "username": "test1032"
         }
     }
 ]

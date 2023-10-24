@@ -2,30 +2,17 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-          "username": "sima",
-          "phone_number": "46561233"
+          "username": "test1055",
+          "phone_number": "09123456855"
         }
     },
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "sima",
+            "username": "test1055",
             "phone_number": "",
-            "new_phone_number": "66056477",
-            "new_username": "user3"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "user3"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "sima"
+            "new_phone_number": "09123456856",
+            "new_username": "test1056"
         }
     }
-
 ]

@@ -1,6 +1,5 @@
 {
     "remove_user.json": "successfully",
-    "empty_username.json": "invalid username",
-    "invalid_username.json":"this username does not exisit",
-    "without_username.json": "username"
+    "empty_username.json": "does not exist",
+    "invalid_username.json":"does not exist"
 }

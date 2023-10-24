@@ -2,29 +2,17 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-          "username": "ff",
-          "phone_number": "4656666"
+          "username": "test1051",
+          "phone_number": "091234567851"
         }
     },
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "ff",
-            "phone_number": "4656666",
+            "username": "test1051",
+            "phone_number": "091234567851",
             "new_phone_number": "",
             "new_username": ""
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": ""
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "ff"
         }
     }
 ]

@@ -1,5 +1,13 @@
 [
     {
+        "command_name": "sign_up",
+        "parameters": {
+          "username": "test1029",
+          "password": "sahel",
+          "email": "adn@ddshadfsin.net"
+        }
+    },
+    {
         "command_name": "logout",
         "parameters": {
         }

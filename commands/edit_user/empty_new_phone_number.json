@@ -2,23 +2,17 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-          "username": "mnh",
-          "phone_number": "46561243"
+          "username": "test1052",
+          "phone_number": "091234567852"
         }
     },
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "mnh",
-            "phone_number": "46561243",
+            "username": "test1052",
+            "phone_number": "091234567852",
             "new_phone_number": "",
-            "new_username": "lmn"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "lmn"
+            "new_username": "test1053"
         }
     }
 ]

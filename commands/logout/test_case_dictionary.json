@@ -1,6 +1,6 @@
 {
     "logout.json": "successfully",
-    "without_username.json":"username",
-    "invali_username.json":"does not exisit",
+    "without_username.json":"does not exist",
+    "invali_username.json":"does not exist",
     "not_login.json":"not login"
 }

@@ -1,22 +1,24 @@
 [
     {
-        "command_name": "sign_in",
+        "command_name": "sign_up",
         "parameters": {
-            "username": "admin",
-            "password": "admin"
+            "username": "test1035",
+            "password": "sahel",
+            "email": "sahel@gmaiddl.com"
         }
     },
     {
         "command_name": "sign_in",
         "parameters": {
-            "username": "admin",
-            "password": "admin"
+            "username": "test1035",
+            "password": "sahel"
         }
     },
     {
-        "command_name": "logout",
+        "command_name": "sign_in",
         "parameters": {
-            "username": "admin"
+            "username": "test1035",
+            "password": "sahel"
         }
     }
 ]

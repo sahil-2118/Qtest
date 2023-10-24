@@ -1,11 +1,18 @@
 [
     {
+        "command_name": "add_phone_user",
+        "parameters": {
+          "username": "test1060",
+          "phone_number": "09123456860"
+        }
+    },   
+    {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "xxxx",
-            "phone_number": "44683112",
-            "new_phone_number": "66056487",
-            "new_username": "yyyy"
+            "username": "test1061",
+            "phone_number": "09123456860",
+            "new_phone_number": "09123456861",
+            "new_username": "test1062"
         }
     }
 ]

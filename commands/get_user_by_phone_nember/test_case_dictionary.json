@@ -1,6 +1,5 @@
 {
     "get_user_by_phone_number.json": "successfully",
-    "empty_phone_number.json": "invalid phone number",
-    "invalid_phone_number.json":"this phone_number does not exisit",
-    "without_phone_number.json": "phone_number"
+    "empty_phone_number.json": "does not exist",
+    "invalid_phone_number.json":"does not exist"
 }

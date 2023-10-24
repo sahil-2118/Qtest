@@ -2,18 +2,12 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "lma",
-            "phone_number": "2053332"
+            "username": "test1019",
+            "phone_number": "09123456818"
         }
     },
     {
         "command_name": "get_all_phone_users",
         "parameters": {}
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "lma"
-        }
     }
 ]

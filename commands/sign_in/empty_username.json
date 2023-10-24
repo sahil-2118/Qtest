@@ -5,11 +5,5 @@
             "username": "",
             "password": "admin"
         }
-    },
-    {
-        "command_name": "logout",
-        "parameters": {
-            "username": ""
-        }
     }
 ]

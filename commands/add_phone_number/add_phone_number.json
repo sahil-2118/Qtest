@@ -2,41 +2,29 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "nnn",
-            "phone_number": "46561555"
+            "username": "test1009",
+            "phone_number": "09123456797"
         }
     },
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "ttt",
-            "phone_number": "2677222"
+            "username": "test1010",
+            "phone_number": "09123456798"
         }
     },
     {
         "command_name": "add_phone_number",
         "parameters": {
-            "username": "ttt",
-            "phone_number": "444444"
+            "username": "test1009",
+            "phone_number": "09123456799"
         }
     },
     {
         "command_name": "add_phone_number",
         "parameters": {
-            "username": "nnn",
-            "phone_number": "333333"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "nnn"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "ttt"
+            "username": "test1010",
+            "phone_number": "09123456800"
         }
     }
 ]

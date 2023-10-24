@@ -1,8 +1,16 @@
 [
     {
+        "command_name": "sign_up",
+        "parameters": {
+          "username": "test1028",
+          "password": "sahel",
+          "email": "adn@ddshasin.net"
+        }
+    },
+    {
         "command_name": "logout",
         "parameters": {
-            "username": "admin"
+            "username": "test1028"
         }
     }
 ]

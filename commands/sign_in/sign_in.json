@@ -2,22 +2,16 @@
     {
         "command_name": "sign_up",
         "parameters": {
-          "username": "admin",
-          "password": "admin",
-          "email": "admin@dshasin.net"
+            "username": "test1036",
+            "password": "sahel",
+            "email": "sahel@gmaiddld.com"
         }
     },
     {
         "command_name": "sign_in",
         "parameters": {
-            "username": "admin",
-            "password": "admin"
-        }
-    },
-    {
-        "command_name": "logout",
-        "parameters": {
-            "username": "admin"
+            "username": "test1036",
+            "password": "sahel"
         }
     }
 ]

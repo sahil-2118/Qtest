@@ -2,14 +2,8 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "user2",
+            "username": "test1001",
             "phone_number": ""
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "user2"
         }
     }
 ]

@@ -2,22 +2,22 @@
     {
         "command_name": "sign_up",
         "parameters": {
-          "username": "adn",
-          "password": "admin",
+          "username": "test1027",
+          "password": "sahel",
           "email": "adn@dshasin.net"
         }
     },
     {
         "command_name": "sign_in",
         "parameters": {
-            "username": "adn",
-            "password": "admin"
+            "username": "test1027",
+            "password": "sahel"
         }
     },
     {
         "command_name": "logout",
         "parameters": {
-            "username": "adn"
+            "username": "sahel"
         }
     }
 ]

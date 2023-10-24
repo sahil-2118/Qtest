@@ -6,6 +6,5 @@
     "without_phone_number.json": "phone_number",
     "without_username.json": "username",
     "user_with_two_same_phone_number.json":"UNIQUE",
-    "users_same_phone_number.json":"UNIQUE",
-    "with_explanation.json":"successfully"
+    "with_explanation.json":"test1007 explanation"
 }

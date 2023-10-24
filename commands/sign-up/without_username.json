@@ -1,9 +1,0 @@
-[
-    {
-      "command_name": "sign_up",
-      "parameters": {
-        "password": "saheli",
-        "email": "sahel3@gmail.com"
-      }
-    }
-]

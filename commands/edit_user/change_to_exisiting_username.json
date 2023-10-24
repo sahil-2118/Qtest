@@ -2,36 +2,24 @@
     {
         "command_name": "add_phone_user",
         "parameters": {
-          "username": "ab",
-          "phone_number": "46561233"
+          "username": "test1047",
+          "phone_number": "091234567847"
         }
     },
     {
         "command_name": "add_phone_user",
         "parameters": {
-            "username": "sima",
-            "phone_number": "2053112"
+            "username": "test1048",
+            "phone_number": "091234567848"
         }
     },
     {
         "command_name": "edit_phone_user",
         "parameters": {
-            "username": "ab",
-            "phone_number": "2051543",
-            "new_phone_number": "66087477",
-            "new_username": "sima"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "sima"
-        }
-    },
-    {
-        "command_name": "remove_phone_user",
-        "parameters": {
-            "username": "ab"
+            "username": "test1047",
+            "phone_number": "091234567847",
+            "new_phone_number": "091234567848",
+            "new_username": "test1048"
         }
     }
 ]

@@ -1,10 +1,10 @@
 {
     "sign_in.json": "successfully",
-    "invalid_username.json": "username",
-    "empty_password.json": "invalid password",
-    "empty_username.json": "invalid username",
+    "invalid_username.json": "does not exist",
+    "empty_password.json": "password is wrong",
+    "empty_username.json": "does not exist",
     "without_password.json": "password",
     "without_username.json": "username",
-    "wrong_password.json": "wrong password",
-    "same_sign_in.json":"had logged in"
+    "wrong_password.json": "password is wrong",
+    "same_sign_in.json":"signed out successfully"
 }
